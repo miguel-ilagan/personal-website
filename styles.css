@@ -1,0 +1,53 @@
+/* CSS properties */
+#name {
+    font-family: monospace;
+    font-size: 50px;
+    text-emphasis: underline;
+    color: red;
+}
+
+.about {
+    font-family: Helvetica;
+}
+
+/* Align the images to the right side of the website */
+.image-alignment {
+    float: right; /* Float the container to the right */
+    margin-left: 400px; /* Add some margin to create space between the image and other content */
+}
+
+/* Change the first letter of my name to a different colour */
+.nameFormat {
+    font-size: 60px;
+    font-family: Times New Roman;
+    padding-left: 10px;
+}
+.nameFormat::first-letter {
+    color: red;
+}
+
+body {
+    background-color: black;  /* background colour of website is black */
+    color: white; /* default colour of text is white */
+}
+
+h1 {
+    color: white;
+}
+
+white-font {
+    color: white;
+}
+
+li:hover {
+    color: orange;
+    font-size: 20px;
+}
+
+h4.about {
+    color: orange;
+}
+
+.course:hover {
+    color: red;
+}

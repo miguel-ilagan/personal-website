@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name = "viewport" content="initial-scale=1, width=device-width"> <!-- this line is to make the website mobile friendly -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+
+        <!-- this is a navigation bar COMMON TO ALL HTML FILES from bootstrap-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <span class="navbar-brand mb-0 h1 nameFormat">MIGUEL.</span>
+            <ul class="navbar-nav mr-auto mt-2">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">
+                        About me
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        Projects
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+
+        </nav>
+
+        <main class="container p-5"> <!-- p is for padding in bootstrap -->
+
+            <!-- align picture to be on the right side of the website -->
+            <div></div>
+
+            <div class="image-alignment">
+                <img src="temp.jpg" alt="my picture" height="400">
+            </div>
+
+            <h1> Hi, I'm <span id="name"> Miguel</span> Carl Ilagan</h1>
+            <h2> Graduate Civil Engineer <br> Current Master of IT Student! <br> </h2>
+
+            <h3 class="about"> My interests are in the fields of:</h3>
+            <ul>
+                <li>Data engineering</li>
+                <li>Machine Learning</li>
+                <li>Quantitative analysis</li>
+            </ul>
+
+            <h4 class="about">I previously graduated with a Bachelor of Engineering (Civil) with first class honours.
+                After 3 years in the construction industry, my interests in the development of emerging technologies grew which sparked my growing interest in coding!
+             </h4>
+             <p>Below is a list of all the courses I have completed so far!</p>
+
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Course Name</th>
+                    <th>Mark</th>
+                </tr>
+                <tr>
+                    <td><span class="course">COMP9021</span></td>
+                    <td>Principles of Programming</td>
+                    <td>77</td>
+                </tr>
+                <tr>
+                    <td><span class="course">COMP9020</span></td>
+                    <td>Foundations of Comp. Science</td>
+                    <td>81</td>
+                </tr>
+                <tr>
+                    <td><span class="course">COMP9311</span></td>
+                    <td>Database Systems</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td><span class="course">COMP9024</span></td>
+                    <td>Data Structures & Algorithms</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td><span class="course">COMP9331</span></td>
+                    <td>Computer Networks & Applications</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <td><span class="course">GSOE9820</span></td>
+                    <td>Project Management</td>
+                    <td>94</td>
+                </tr>
+            </table>
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+
+
+</html>
